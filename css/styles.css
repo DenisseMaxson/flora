@@ -1,0 +1,187 @@
+
+body {
+    --rosa-personalizado: #ed3b79; 
+    --rosa-personalizado-light: #fbe5ef; 
+    --card-img-height: 250px; 
+    --gallery-card-height: 300px; 
+}
+ 
+.blanco-personalizado-text{
+
+}
+
+
+
+card-body a{
+    
+}
+
+header .navbar-brand {
+    font-family: "Borel", cursive;
+}
+
+.borel-regular {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.social-icons a {
+    color: #6c757d; 
+    transition: color 0.3s ease; 
+}
+
+
+.social-icons a:hover {
+    color: var(--rosa-personalizado); 
+}
+
+.logo-icon-rosa {
+    color: #f72585; 
+    font-size: 1.5rem; 
+}
+.navbar-brand {
+    font-family: "Borel", cursive; 
+} 
+
+.rosa-personalizado-text {
+    color: #f72585; 
+}
+
+#centroCarousel {
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+#centroCarousel .carousel-item {
+    border-radius: 20px; 
+}
+
+#centroCarousel .carousel-control-prev,
+#centroCarousel .carousel-control-next {
+    width: 5%; 
+}
+
+.header-rosa-personalizado{
+    background-color: #d8336d;
+}
+
+.btn-rosa-personalizado {
+    background-color: var(--rosa-personalizado);
+    border-color: var(--rosa-personalizado);
+    color: white;
+}
+.btn-rosa-personalizado:hover {
+    background-color: #d8336d; 
+    color: white;
+}
+.rosa-personalizado-text {
+    color: var(--rosa-personalizado);
+}
+
+.centro-slide-1 {
+    max-height: 450px;
+    min-height: 450px;
+    background-color: var(--rosa-personalizado-light);
+    background-image: url(../images/fondo6.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.centro-slide-2 {
+    min-height: 450px;
+    background-color: var(--rosa-personalizado-light);
+    background-image: url(../images/fondo4.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.centro-slide-3 {
+    min-height: 450px; 
+    background-image: url(../images/fondo5.jpg);
+    background-size: cover;
+    background-color: var(--rosa-personalizado-light);
+    display: flex;
+    align-items: center;
+}
+
+.centro-img-area {
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 450px; 
+    display: flex;
+    align-items: center;
+}
+/*parte para movil*/
+@media (max-width: 767.98px) {
+    .centro-img-area {
+        display: none;
+    }
+    .centro-slide-1 {
+        min-height: 300px; 
+    }
+}
+
+#sticky-top{
+    background-color: #d8336d;
+}
+.custom-card-img {
+    height: var(--card-img-height);
+    object-fit: cover; 
+}
+.product-card .btn-outline-secondary {
+    border-radius: 50rem; 
+}
+
+.gallery-card {
+    min-height: var(--gallery-card-height);
+    border-radius: 5%;
+    color: white; 
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.gallery-card:hover {
+    transform: scale(1);
+}
+
+.custom-bg-event-1 {
+    background-image: url(../images/slide1.png);
+}
+.custom-bg-event-2 {
+    background-image: url(../images/slide2.png);
+}
+.custom-bg-event-3 {
+    background-image: url(../images/slide3.png);
+}
+
+
+.btn-circulo {
+    width: 35px; 
+    height: 35px;
+    padding: 0; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem; 
+    background-color: var(--rosa-personalizado); 
+    border-color: var(--rosa-personalizado);
+    color: white;
+}
+
+
+.offcanvas-end {
+    width: 280px;
+}
+@media (min-width: 992px) {
+    .offcanvas-lg-end {
+        transform: none;
+        visibility: visible;
+    }
+}
